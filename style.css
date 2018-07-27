@@ -13,8 +13,8 @@ body {
     background: #fff;
     width: 70px;
     position: absolute;
-    top: 1%;
-    right: 15%;
+    top: 5%;
+    right: 5%;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -293,8 +293,8 @@ p {
       background: #fff;
       width: 70px;
       position: absolute;
-      top: 1%;
-      right: 15%;
+      top: 4%;
+      right: 5%;
       overflow: hidden;
       font-family: Arial, Helvetica, sans-serif;
   }
@@ -314,8 +314,8 @@ p {
       background: #fff;
       width: 70px;
       position: absolute;
-      top: 1%;
-      right: 25%;
+      top: 4%;
+      right: 5%;
       overflow: hidden;
       font-family: Arial, Helvetica, sans-serif;
   }

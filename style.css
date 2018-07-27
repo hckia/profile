@@ -9,6 +9,14 @@ body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
+.img-container {
+}
+
+#profile-img {
+  width: 100%;
+  border-radius: 80%;
+}
+
 .navbar {
     background: #fff;
     width: 70px;
@@ -294,7 +302,7 @@ p {
       width: 70px;
       position: absolute;
       top: 4%;
-      right: 5%;
+      right: 15%;
       overflow: hidden;
       font-family: Arial, Helvetica, sans-serif;
   }
@@ -315,7 +323,7 @@ p {
       width: 70px;
       position: absolute;
       top: 4%;
-      right: 5%;
+      right: 15%;
       overflow: hidden;
       font-family: Arial, Helvetica, sans-serif;
   }

@@ -9,6 +9,71 @@ body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
+.navbar {
+    background: #fff;
+    width: 70px;
+    position: absolute;
+    top: 1%;
+    right: 15%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdown {
+    z-index: 1;
+    display: block;
+    position: fixed;
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+/* .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+} */
+
+.dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f9f9f9;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown.open .dropdown-content {
+    display: block;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -56,7 +121,6 @@ h4 {
 .experience-row {
   margin: 15px;
   display: block;
-  /* box-shadow: 0 1px 0 0 black;*/
 }
 
 .experience-row > h3 {
@@ -77,57 +141,6 @@ div {
   display: inline-block;
 }
 
-#right-column {
-  position: absolute;
-  z-index: 1;
-  -webkit-transition-duration: .3s;
-  transition-duration: .3s;
-  font-size: 20px;
-  box-shadow: 0 3px 0 0 gray; /* Border bottom */
-  background: #fbfbfb;
-  height: 520px;
-  width: 36%;
-  margin-left: 50%;
-}
-
-nav {
-  padding-top: 15px;
-  padding-right: 15px;
-}
-
-li {
-  text-decoration: underline;
-  padding-bottom: 14px;
-}
-
-#toggler{
-  height: 10%;
-  width: 10%;
-  top: 1%;
-  right: 0.1%;
-  z-index: 2;
-  position: fixed;
-}
-
-#right-column.open {
-  position: fixed;
-  margin-left: -34%;
-}
-
-.img-container {
-  margin: 10% 30% 0 30%;
-}
-
-.img {
-  width: 25%;
-}
-
-#profile-img {
-  margin-top: 15px;
-  width: 100%;
-  border-radius: 80%;
-}
-
 .portfolio-gif {
   width: 90%;
 }
@@ -139,7 +152,6 @@ li {
 
 /*former right-column*/
 #left-column {
-  vertical-align: top;
   font-size: 15px;
   background: #fff;
   width: 100%;
@@ -147,19 +159,14 @@ li {
 
 #my-profile-header {
   margin: 65px 0 0 0;
-  padding-left: 15%;
 }
 
 .position-proper {
-  padding: 5%;
+  /* padding: 5%; */
 }
 
 #about {
   background: #fcfbfc;
-}
-
-#about > h2 {
-  padding-left: 2em;
 }
 
 #skills {
@@ -191,10 +198,6 @@ li {
 p {
   font-size: 22px;
   font-style: italic;
-}
-
-#expertise {
-  text-align: center;
 }
 
 .expertise-col {
@@ -286,51 +289,14 @@ p {
 }
 
 @media screen and (max-width: 801px) {
-  #right-column {
-    position: absolute;
-    z-index: 1;
-    -webkit-transition-duration: .3s;
-    transition-duration: .3s;
-    font-size: 18px;
-    box-shadow: 0 3px 0 0 gray; /* Border bottom */
-    background: #fbfbfb;
-    height: 520px;
-    width: 54%;
-    margin-left: 50%;
-  }
-
-  nav {
-    padding-top: 15px;
-    padding-right: 20px;
-  }
-
-  li {
-    text-decoration: underline;
-    padding-bottom: 14px;
-  }
-
-  #toggler{
-    height: 10%;
-    width: 10%;
-    top: 1%;
-    right: 8%;
-    z-index: 2;
-    position: fixed;
-  }
-
-  #right-column.open {
-    position: fixed;
-    margin-left: -52%;
-  }
-
-  .img-container {
-    margin: 10% 30% 0 30%;
-  }
-
-  #profile-img {
-    margin-top: 65px;
-    width: 100%;
-    border-radius: 80%;
+  .navbar {
+      background: #fff;
+      width: 70px;
+      position: absolute;
+      top: 1%;
+      right: 15%;
+      overflow: hidden;
+      font-family: Arial, Helvetica, sans-serif;
   }
 
   .info-col {
@@ -344,66 +310,28 @@ p {
 }
 
 @media screen and (max-width: 401px) {
-  #right-column {
-    position: absolute;
-    z-index: 1;
-    -webkit-transition-duration: .3s;
-    transition-duration: .3s;
-    font-size: 18px;
-    box-shadow: 0 3px 0 0 gray; /* Border bottom */
-    background: #fbfbfb;
-    height: 520px;
-    width: 54%;
-    margin-left: 50%;
+  .navbar {
+      background: #fff;
+      width: 70px;
+      position: absolute;
+      top: 1%;
+      right: 25%;
+      overflow: hidden;
+      font-family: Arial, Helvetica, sans-serif;
   }
-
-  nav {
-    padding-top: 15px;
-    padding-right: 20px;
-  }
-
-  li {
-    text-decoration: underline;
-    padding-bottom: 14px;
-  }
-
-  #toggler{
-    height: 10%;
-    width: 10%;
-    top: 1%;
-    right: 15%;
-    z-index: 2;
-    position: fixed;
-  }
-
-  #right-column.open {
-    position: fixed;
-    margin-left: -52%;
-  }
-
-  .img-container {
-    margin: 10% 30% 0 30%;
-  }
-
-  #profile-img {
-    margin-top: 65px;
-    width: 100%;
-    border-radius: 80%;
-  }
-
   .info-col {
     margin-bottom: 10px;
     width: 100%;
   }
 
   .expertise-col {
-    margin-left: -30px;
+    /* margin-left: -30px; */
     margin-top: 10px;
     width: 100%;
   }
 
   .portfolio-row {
-    margin-left: -30px;
+    /* margin-left: -30px; */
     margin-top: 8px;
     width: 99%;
     box-shadow: 1px 1px 1px 1px black;

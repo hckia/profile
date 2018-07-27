@@ -5,10 +5,10 @@
 //console.log('hi');
 $('#js-toggle').on('click', function(e) {
   e.preventDefault();
-  $('#right-column').toggleClass('open');
+  $('.dropdown').toggleClass('open');
 });
 
 $('.js-link-clicked').on('click', (e) => {
   // e.preventDefault();
-  $('#right-column').toggleClass('open');
+  $('.dropdown').toggleClass('open');
 })

@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn"><img id="js-toggle" src="./imgs/hamburger-menu.png" />
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#info" class="js-link-clicked">My Contact Information</a>
+          <a href="#about" class="js-link-clicked">About Me</a>
+          <a href="#expertise" class="js-link-clicked">My Expertise</a>
+          <a href="#skills" class="js-link-clicked">My Skills & Tool Proficency</a>
+          <a href="#portfolio" class="js-link-clicked">My Portfolio</a>
+          <a href="#experience" class="js-link-clicked">My Experience</a>
+          <a href="#education-certification" class="js-link-clicked">Education & Certifications</a>
+        </div>
+      </div>
+    </div>
     <div id="left-column">
       <div id="my-profile-header">
         <h1>
@@ -46,20 +62,15 @@
       <div class="position-proper" id="about">
         <br />
         <h2>About Me</h2>
-        <br />
         <p>I'm an Aspiring Web Developer with an insatiable thirst to learn. I not only love to build, but to Document the process.</p>
-        <br />
         <p>Repeating a task from Scratch is not smart. If it's not automated, it better be documented. If it's automated, it still should be documented.</p>
-        <br />
         <p>At this time I'm currently overhauling Pagely's Documentation process, along with creating new documentation to better serve our customers, but in my spare time I'm working on building fullstack applications, utilizing Node.js, Headless WordPress, and React.</p>
-        <br />
         <p>I've also been known to create Videos from time to time - some of them are related to documentation, others are on random topics.</p>
       </div>
       <div class="position-proper section" id="expertise">
-        <br/>
         <h2>Expertise</h2>
-        <br/>
         <div class="expertise-col">
+          <br/>
           <h3>React</h3>
           <p class="expertise-font">My Experience with React</p>
         </div>
@@ -124,7 +135,7 @@
           </span>
         </div>
         <br/>
-        <h3><span class="color-me-gold">60%</span> Photohop</h3>
+        <h3><span class="color-me-gold">60%</span> Photoshop</h3>
         <div class="progress-bar">
           <span style="width:60%">
           </span>
@@ -261,21 +272,6 @@
           <p class="expertise-font">Mt. SAC info here</p>
         </div>
       </div>
-    </div>
-    <div id="right-column">
-    <div id="toggler"><button ><img id="js-toggle" src="./imgs/hamburger-menu.png" /></button></div>
-      <div class="img-container" ><img id="profile-img" src="./imgs/Cyrus default.png" alt="image of cyrus" /></div>
-      <nav>
-        <ul>
-          <li><a href="#info" class="js-link-clicked">My Contact Information</a></li>
-          <li><a href="#about" class="js-link-clicked">About Me</a></li>
-          <li><a href="#expertise" class="js-link-clicked">My Expertise</a></li>
-          <li><a href="#skills" class="js-link-clicked">My Skills & Tool Proficency</a></li>
-          <li><a href="#portfolio" class="js-link-clicked">My Portfolio</a></li>
-          <li><a href="#experience" class="js-link-clicked">My Experience</a></li>
-          <li><a href="#education-certification" class="js-link-clicked">My Education & Certifications</a></li>
-      </ul>
-      </nav>
     </div>
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"

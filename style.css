@@ -1,0 +1,426 @@
+* {
+ margin: 0 auto;
+}
+
+body {
+  text-align: center;
+  padding: 5px;
+  font-size: 0;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  color: #F8BB10;
+  font-size: 26px;
+  font-weight: bold;
+  /* opacity: .5; */
+}
+
+h3 {
+  margin: 5px 0 5px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 19px;
+  opacity: .6;
+}
+
+/* #portfolio {
+  text-align: center;
+} */
+
+.portfolio-row {
+  margin-top: 8px;
+  width: 80%;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.portfolio-row > h3 {
+  padding: 15px;
+}
+
+.portfolio-row:hover{
+  box-shadow: 1px 1px 1px 1px #F8BB10;
+}
+
+.experience-row {
+  margin: 15px;
+  display: block;
+  /* box-shadow: 0 1px 0 0 black;*/
+}
+
+.experience-row > h3 {
+  opacity: .6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.description {
+  font-size: 24px;
+  color: gray;
+  opacity: .9;
+}
+
+div {
+  display: inline-block;
+}
+
+#right-column {
+  position: absolute;
+  z-index: 1;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  font-size: 20px;
+  box-shadow: 0 3px 0 0 gray; /* Border bottom */
+  background: #fbfbfb;
+  height: 520px;
+  width: 36%;
+  margin-left: 50%;
+}
+
+nav {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+li {
+  text-decoration: underline;
+  padding-bottom: 14px;
+}
+
+#toggler{
+  height: 10%;
+  width: 10%;
+  top: 1%;
+  right: 0.1%;
+  z-index: 2;
+  position: fixed;
+}
+
+#right-column.open {
+  position: fixed;
+  margin-left: -34%;
+}
+
+.img-container {
+  margin: 10% 30% 0 30%;
+}
+
+.img {
+  width: 25%;
+}
+
+#profile-img {
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 80%;
+}
+
+.portfolio-gif {
+  width: 90%;
+}
+
+.img-edu {
+  width: 10%;
+  border: 1px solid black;
+}
+
+/*former right-column*/
+#left-column {
+  vertical-align: top;
+  font-size: 15px;
+  background: #fff;
+  width: 100%;
+}
+
+#my-profile-header {
+  margin: 65px 0 0 0;
+  padding-left: 15%;
+}
+
+.position-proper {
+  padding: 5%;
+}
+
+#about {
+  background: #fcfbfc;
+}
+
+#about > h2 {
+  padding-left: 2em;
+}
+
+#skills {
+  background: #fcfbfc;
+}
+
+#experience {
+  background: #fcfbfc;
+}
+
+.education-row {
+  margin: 20px;
+  display: block;
+}
+
+.section{
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+#info {
+  text-align: center;
+}
+
+.info-col {
+  width: calc(98% * 0.25);
+}
+
+p {
+  font-size: 22px;
+  font-style: italic;
+}
+
+#expertise {
+  text-align: center;
+}
+
+.expertise-col {
+  margin-top: 10px;
+  width: calc(85% * 0.50);
+}
+
+.portfolio-col {
+  padding: 10px;
+  margin-top: 10px;
+  width: calc(85% * 0.50);
+}
+
+
+.expertise-font {
+  font-size: 16px;
+}
+
+.border{
+  margin-top: -20%;
+  /* margin-left: 15%; */
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 3px 0 0 gray; /* Border bottom */
+}
+
+#firstname {
+  display: block;
+  text-transform: lowercase;
+  font-size: 60px;
+}
+
+#second-last-name {
+  display: block;
+  text-transform: uppercase;
+  font-size: 62px;
+  color: #F8BB10;
+}
+
+.a-skill {
+  width: 100%
+  height: 24px;
+  border: solid 1px black;
+}
+
+.color-me-gold {
+  color: #F8BB10;
+}
+
+.date {
+  font-size: 16px;
+  opacity: .4;
+}
+
+.progress-bar {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  display: block;
+  height: 10px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.progress-bar > span {
+  margin-left: 0;
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(248,187,16);
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 801px) {
+  #right-column {
+    position: absolute;
+    z-index: 1;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    font-size: 18px;
+    box-shadow: 0 3px 0 0 gray; /* Border bottom */
+    background: #fbfbfb;
+    height: 520px;
+    width: 54%;
+    margin-left: 50%;
+  }
+
+  nav {
+    padding-top: 15px;
+    padding-right: 20px;
+  }
+
+  li {
+    text-decoration: underline;
+    padding-bottom: 14px;
+  }
+
+  #toggler{
+    height: 10%;
+    width: 10%;
+    top: 1%;
+    right: 8%;
+    z-index: 2;
+    position: fixed;
+  }
+
+  #right-column.open {
+    position: fixed;
+    margin-left: -52%;
+  }
+
+  .img-container {
+    margin: 10% 30% 0 30%;
+  }
+
+  #profile-img {
+    margin-top: 65px;
+    width: 100%;
+    border-radius: 80%;
+  }
+
+  .info-col {
+    margin-bottom: 10px;
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 401px) {
+  #right-column {
+    position: absolute;
+    z-index: 1;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    font-size: 18px;
+    box-shadow: 0 3px 0 0 gray; /* Border bottom */
+    background: #fbfbfb;
+    height: 520px;
+    width: 54%;
+    margin-left: 50%;
+  }
+
+  nav {
+    padding-top: 15px;
+    padding-right: 20px;
+  }
+
+  li {
+    text-decoration: underline;
+    padding-bottom: 14px;
+  }
+
+  #toggler{
+    height: 10%;
+    width: 10%;
+    top: 1%;
+    right: 15%;
+    z-index: 2;
+    position: fixed;
+  }
+
+  #right-column.open {
+    position: fixed;
+    margin-left: -52%;
+  }
+
+  .img-container {
+    margin: 10% 30% 0 30%;
+  }
+
+  #profile-img {
+    margin-top: 65px;
+    width: 100%;
+    border-radius: 80%;
+  }
+
+  .info-col {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .expertise-col {
+    margin-left: -30px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .portfolio-row {
+    margin-left: -30px;
+    margin-top: 8px;
+    width: 99%;
+    box-shadow: 1px 1px 1px 1px black;
+  }
+  .portfolio-col {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .progress-bar {
+    margin: 0 auto;
+    text-align: center;
+    width: 85%;
+    display: block;
+    height: 10px;  /* Can be anything */
+  	position: relative;
+  	background: #555;
+  	-moz-border-radius: 25px;
+  	-webkit-border-radius: 25px;
+  	border-radius: 25px;
+  	padding: 10px;
+  	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  }
+}

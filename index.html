@@ -26,7 +26,7 @@
       </div>
     </div>
     <div id="left-column">
-      <div id="my-profile-header">
+      <div class="section add-pad" id="my-profile-header">
         <h1>
           <span id="firstname">Hoormazd</span>
           <span id="second-last-name">Cyrus Kia</span>
@@ -35,7 +35,7 @@
         <p class="description">Web Developer, Scriber, and an Security Minded Tech Enthusiast</p>
       </div>
       <div class="border"></div>
-      <div class="position-proper section" id="info">
+      <div class="section add-pad" id="info">
         <br />
           <h2>Contact Information</h2>
         <br />
@@ -60,15 +60,16 @@
           </a>
         </div>
       </div>
-      <div class="position-proper add-pad" id="about">
+      <div class="section add-pad" id="about">
         <br />
         <h2>About Me</h2>
-        <p>I'm an Aspiring Web Developer with an insatiable thirst to learn. I not only love to build, but to Document the process.</p>
+        <br/>
+        <p>I'm an Web Developer with an insatiable thirst to learn. I not only love to build, but to Document the process.</p>
         <p>Repeating a task from Scratch is not smart. If it's not automated, it better be documented. If it's automated, it still should be documented.</p>
         <p>At this time I'm currently overhauling Pagely's Documentation process, along with creating new documentation to better serve our customers, but in my spare time I'm working on building fullstack applications, utilizing Node.js, Headless WordPress, and React.</p>
         <p>I've also been known to create Videos from time to time - some of them are related to documentation, others are on random topics.</p>
       </div>
-      <div class="position-proper section " id="expertise">
+      <div class="section add-pad" id="expertise">
         <h2>Expertise</h2>
         <div class="expertise-col">
           <br/>
@@ -96,7 +97,7 @@
           <p class="expertise-font">My Experience with JavaScript, pre and post ES8 syntax changes</p>
         </div>
       </div>
-      <div class="position-proper section add-pad" id="skills">
+      <div class="section add-pad" id="skills">
         <br/>
         <h2>Skills & Tool Proficency</h2>
         <br/>
@@ -143,68 +144,58 @@
         </div>
       </div>
       <!-- New Portfolio Entry -->
-      <div class="position-proper section add-pad" id="portfolio">
+      <div class="section add-pad" id="portfolio">
         <br/>
         <h2>Portfolio</h2>
         <br/>
         <a href="#" target="_blank">
         <div class="portfolio-row">
           <h3>Mid Easy Quiz App</h3>
-          <div class="portfolio-col">
             <!-- <p class="expertise-font">My Experience with React</p> -->
             <img class="portfolio-gif" src="./imgs/mid-easy-quiz-app.gif" />
-          </div>
           <div class="portfolio-col">
-            <p class="expertise-font">The Mid Easy Quiz App was an application prototype build with HTML, CSS, JQuery and some good old fashioned JSON. <br/> The premise was to showcase how little people knew about a region they tend to have quite a strong opinion about. The Quiz heavily skews towards facts us in the west may find surprisingly familiar. Kind of the point</br> This project will eventually be rebuilt to be more dynamic and utilize Node.js and MongoDB. React may be utilized if enough time can be poured into it.<br/><br/><br/><br/></p>
+            <p class="expertise-font">The Mid Easy Quiz App was an application prototype build with HTML, CSS, JQuery and some good old fashioned JSON. <br/><br/> The premise was to showcase how little people knew about a region they tend to have quite a strong opinion about. The Quiz heavily skews towards facts us in the west may find surprisingly familiar. Kind of the point</br><br/> This project will eventually be rebuilt to be more dynamic and utilize Node.js and MongoDB. React may be utilized if enough time can be poured into it.<br/><br/></p>
           </div>
         </div>
         </a>
         <a href="#" target="_blank">
         <div class="portfolio-row">
           <h3>FOMO Calculator</h3>
-          <div class="portfolio-col">
             <img class="portfolio-gif" src="./imgs/fomo-calculator.gif" />
-          </div>
           <div class="portfolio-col">
-            <p class="expertise-font">The FOMO Calculator was built during the hype of the Cryptocurrency craze in late 2017, early 2018. Its purpose was to showcase the highs and lows of investing in BitCoin throughout its lifespan.</br>Although the name "FOMO" was chosen due to the culture surrounding cryptocurrency investors, the real purpose of the app was to show people they should err on the side of caution when investing in Bitcoin</br>The Interface was also built to try and be as dynamic as possible - allowing the user to click or type away.</br>This app currenly uses the Coindesk API. While no backend will be built in the future, upgrades to the USEr Interface may take place.</p></br>
+            <p class="expertise-font">The FOMO Calculator was built during the hype of the Cryptocurrency craze in late 2017, early 2018. Its purpose was to showcase the highs and lows of investing in BitCoin throughout its lifespan.</br><br/>Although the name "FOMO" was chosen due to the culture surrounding cryptocurrency investors, the real purpose of the app was to show people they should err on the side of caution when investing in Bitcoin</br><br/>The Interface was also built to try and be as dynamic as possible - allowing the user to click or type away.</br><br/>This app currenly uses the Coindesk API. While no backend will be built in the future, upgrades to the USEr Interface may take place.</p>
           </div>
         </div>
         </a>
         <a href="#" target="_blank">
         <div class="portfolio-row">
           <h3>Web Site Reviews</h3>
-          <div class="portfolio-col">
             <img class="portfolio-gif" src="./imgs/web-site-review.gif" />
-          </div>
           <div class="portfolio-col">
-            <p class="expertise-font">Explanation of Web Site Reviews</p>
+            <p class="expertise-font">The Web Site Reviews App was my first attempt at a Social Networking app. It utilizes Node.js, MongoDB, and a basic HTML/CSS/JS with JQuery library on the front end.<br/><br/>A user can see reviews on sites without logging in, but to like, dislike, or create a review the user must be signed in to do so. Basic regex is used to filter out some urls bad urls, but eventually more complex methods will be utilized to make the site more functional (such as DNS queries, whosis look ups).<br/></br></p>
           </div>
         </div>
         </a>
         <a href="#" target="_blank">
         <div class="portfolio-row">
           <h3>My Map Tales</h3>
-          <div class="portfolio-col">
             <img class="portfolio-gif" src="./imgs/my-map-tales.gif" />
-          </div>
           <div class="portfolio-col">
-            <p class="expertise-font">Explanation of My Map Tales</p>
+            <p class="expertise-font">My Map Tales was my second attempt at a social networking site, and my first attempt at using React/Redux on the front end application. The backend still utilized Node.js and MongoDB, and JWT authentication as well</br></br>The inspiration behind the application came with the news of Anthony Bourdain's death. With family all of the world, traveling was often seen as a chore in my younger years, and not as a privilege. This man changed my perspective on that, and I wanted a way for other people to share their stories with me.</br></br></p>
           </div>
         </div>
         </a>
         <a href="#" target="_blank">
         <div class="portfolio-row">
           <h3>La Mirada Wheels</h3>
-          <div class="portfolio-col">
             <img class="portfolio-gif" src="./imgs/la-mirada-wheels.gif" />
-          </div>
           <div class="portfolio-col">
-            <p class="expertise-font">Explanation of La Mirada Wheels</p>
+            <p class="expertise-font">La Mirada Wheels is a simple WordPress site, with a few twists. A family member needed a site for SEO purposes that they could easily update. This required me to look at a few drag and drop builder options, but within the scope of WordPress. I decided to use Elementor, but took the opportunity to mess around with Beaver Builder and Divi as well.</br></br>The end result was La Mirada wheels, a Elementor built, SEO leaning single page site That will allow for custom code modifications in the event the client decides to go in a different route.</br></br></p>
           </div>
         </div>
         </a>
       </div>
-      <div class="position-proper section add-pad" id="experience">
+      <div class="section add-pad" id="experience">
         <br/>
         <h2>Experience</h2>
         <br/>
@@ -244,7 +235,7 @@
           <p class="expertise-font">CyberWatch West Experience</p>
         </div>
       </div>
-      <div class="position-proper section" id="education-certification">
+      <div class="section add-pad" id="education-certification">
         <br/>
         <h2>Education & Certifications</h2>
         <br/>

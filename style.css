@@ -10,6 +10,27 @@ body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
+a {
+  /* text-decoration: none; */
+  color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .add-pad {
   padding: 25px;
 }
@@ -87,10 +108,6 @@ body {
 
 .dropdown.open .dropdown-content {
     display: block;
-}
-
-a:link {
-    text-decoration: none;
 }
 
 h1 {
@@ -193,7 +210,7 @@ div {
 }
 
 .education-row {
-  margin: 20px;
+  /* margin: 20px; */
   display: block;
 }
 
@@ -203,6 +220,7 @@ div {
 }
 
 #info {
+  text-decoration: none;
   text-align: center;
 }
 

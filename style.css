@@ -10,6 +10,7 @@ body {
 }
 
 .img-container {
+  width: 25%;
 }
 
 #profile-img {
@@ -41,6 +42,7 @@ body {
     position: fixed;
     float: left;
     overflow: hidden;
+    right: 5px;
 }
 
 .dropdown .dropbtn {

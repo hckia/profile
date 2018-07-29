@@ -48,7 +48,7 @@ a:active {
     background: #fff;
     width: 70px;
     position: absolute;
-    top: 5%;
+    /* top: 5%; */
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -67,7 +67,7 @@ a:active {
     position: fixed;
     float: left;
     overflow: hidden;
-    right: 15px;
+    right: 25px;
 }
 
 .dropdown .dropbtn {
@@ -80,6 +80,7 @@ a:active {
 }
 
 .dropdown-content {
+    right: 25px;
     display: none;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0);
@@ -99,8 +100,12 @@ a:active {
     background-color: #ddd;
 }
 
+.open {
+}
+
 .dropdown.open .dropdown-content {
     display: block;
+    position:inherit;
 }
 
 h1 {

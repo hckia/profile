@@ -113,6 +113,7 @@ h1 {
 }
 
 h2 {
+  padding: 25px;
   color: #F8BB10;
   font-size: 26px;
   font-weight: bold;
@@ -146,6 +147,8 @@ h4 {
 }
 
 .experience-row {
+  padding: 5px;
+  text-align: left;
   box-shadow: 0 3px 0 0 gray; /* Border bottom */
   display: block;
 }

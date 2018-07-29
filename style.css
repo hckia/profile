@@ -222,9 +222,9 @@ p {
 }
 
 .expertise-col {
-  width: calc(90% * 0.50);
+  float: left;
+  width: 49%
 }
-
 
 .expertise-font {
   padding: 10px;
@@ -317,8 +317,8 @@ p {
   }
 
   .expertise-col {
-    margin-top: 10px;
-    width: 100%;
+    float: left;
+    width: 49%
   }
 
   .navbar {
@@ -358,10 +358,22 @@ p {
 
 }
 
-@media screen and (max-width: 640frapx) {
+@media screen and (max-width: 640px) {
   .skills-row {
     width: 100%
   }
+
+  .experience-row {
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 3px 0 0 gray; /* Border bottom */
+    display: block;
+  }
+
+  .expertise-col {
+    width: 100%
+  }
+
 }
 
 @media screen and (max-width: 401px) {
@@ -404,7 +416,6 @@ p {
   }
 
   .expertise-col {
-    margin-top: 10px;
     width: 100%;
   }
 
@@ -429,6 +440,13 @@ p {
   	border-radius: 25px;
   	padding: 10px;
   	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  }
+
+  .experience-row {
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 3px 0 0 gray; /* Border bottom */
+    display: block;
   }
 
   .img-edu {

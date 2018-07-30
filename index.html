@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div class="navbar">
-      <div class="dropdown">
-        <button class="dropbtn"><img id="js-toggle" src="./imgs/hamburger-menu.png" />
-          <i class="fa fa-caret-down"></i>
+    <!-- <div class="navbar"> -->
+      <div class="dropdown" href="#">
+        <button onclick="myFunction()" class="dropbtn">
+          <!-- <i class="fa fa-caret-down"></i> -->
         </button>
-        <div class="dropdown-content">
+        <nav id="myDropdown" class="dropdown-content">
           <a href="#info" class="js-link-clicked">My Contact Information</a>
           <a href="#about" class="js-link-clicked">About Me</a>
           <a href="#expertise" class="js-link-clicked">My Expertise</a>
@@ -21,9 +21,9 @@
           <a href="#portfolio" class="js-link-clicked">My Portfolio</a>
           <a href="#experience" class="js-link-clicked">My Experience</a>
           <a href="#education-certification" class="js-link-clicked">Education & Certifications</a>
-        </div>
+        </nav>
       </div>
-    </div>
+    <!-- </div> -->
     <div id="left-column">
       <header class="add-pad" id="my-profile-header">
         <h1>
@@ -43,8 +43,8 @@
             </a>
           </div>
           <div class="info-col">
-            <a href="mailto:hckia1@gmail.com" target="_blank">
-            <img class="img" src="./imgs/email-128.png" />
+            <a href="https://github.com/hckia" target="_blank">
+            <img class="img" src="./imgs/if_github_287756.png" />
             </a>
           </div>
           <div class="info-col">
@@ -271,10 +271,6 @@
         </div>
       </div>
     </div>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
     <script src="./script.js" defer></script>
   </body>
 </html>

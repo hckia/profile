@@ -1,14 +1,18 @@
-/* If you're feeling fancy you can add interactivity
-    to your site with Javascript */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
-// prints "hi" in the browser's dev tools console
-//console.log('hi');
-$('#js-toggle').on('click', function(e) {
-  e.preventDefault();
-  $('#right-column').toggleClass('open');
-});
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
 
-$('.js-link-clicked').on('click', (e) => {
-  // e.preventDefault();
-  $('#right-column').toggleClass('open');
-})
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}

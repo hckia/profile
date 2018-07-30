@@ -5,282 +5,272 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+    <!-- <div class="navbar"> -->
+      <div class="dropdown" href="#">
+        <button onclick="myFunction()" class="dropbtn">
+          <!-- <i class="fa fa-caret-down"></i> -->
+        </button>
+        <nav id="myDropdown" class="dropdown-content">
+          <a href="#info" class="js-link-clicked">My Contact Information</a>
+          <a href="#about" class="js-link-clicked">About Me</a>
+          <a href="#expertise" class="js-link-clicked">My Expertise</a>
+          <a href="#skills" class="js-link-clicked">My Skills & Tool Proficency</a>
+          <a href="#portfolio" class="js-link-clicked">My Portfolio</a>
+          <a href="#experience" class="js-link-clicked">My Experience</a>
+          <a href="#education-certification" class="js-link-clicked">Education & Certifications</a>
+        </nav>
+      </div>
+    <!-- </div> -->
     <div id="left-column">
-      <div id="my-profile-header">
+      <header class="add-pad" id="my-profile-header">
         <h1>
           <span id="firstname">Hoormazd</span>
           <span id="second-last-name">Cyrus Kia</span>
         </h1>
+        <div class="img-container" ><img id="profile-img" src="./imgs/Cyrus default.png" alt="image of cyrus" /></div>
         <p class="description">Web Developer, Scriber, and an Security Minded Tech Enthusiast</p>
-      </div>
+      </header>
       <div class="border"></div>
-      <div class="position-proper section" id="info">
-        <br />
+      <div class="add-pad" id="info">
           <h2>Contact Information</h2>
-        <br />
-        <div class="info-col">
-          <a href="https://www.linkedin.com/in/hoormazd-cyrus-kia-44706063/" target="_blank">
-          <img class="img" src="./imgs/linkedIn-128.png" />
-          </a>
-        </div>
-        <div class="info-col">
-          <a href="mailto:hckia1@gmail.com" target="_blank">
-          <img class="img" src="./imgs/email-128.png" />
-          </a>
-        </div>
-        <div class="info-col">
-          <a href="http://wwww.hcyruskia.com" target="_blank">
-          <img class="img" src="./imgs/web-128.png" />
-          </a>
-        </div>
-        <div class="info-col">
-          <a href="https://angel.co/hckia" target="_blank">
-          <img class="img" src="./imgs/angels-128.png" />
-          </a>
+        <div class="info-row">
+          <div class="info-col">
+            <a href="https://www.linkedin.com/in/hoormazd-cyrus-kia-44706063/" target="_blank">
+            <img class="img" src="./imgs/linkedIn-128.png" />
+            </a>
+          </div>
+          <div class="info-col">
+            <a href="https://github.com/hckia" target="_blank">
+            <img class="img" src="./imgs/if_github_287756.png" />
+            </a>
+          </div>
+          <div class="info-col">
+            <a href="http://www.hcyruskia.com" target="_blank">
+            <img class="img" src="./imgs/web-128.png" />
+            </a>
+          </div>
+          <div class="info-col">
+            <a href="https://angel.co/hckia" target="_blank">
+            <img class="img" src="./imgs/angels-128.png" />
+            </a>
+          </div>
         </div>
       </div>
-      <div class="position-proper" id="about">
-        <br />
+      <div class="add-pad" id="about">
         <h2>About Me</h2>
-        <br />
-        <p>I'm an Aspiring Web Developer with an insatiable thirst to learn. I not only love to build, but to Document the process.</p>
-        <br />
-        <p>Repeating a task from Scratch is not smart. If it's not automated, it better be documented. If it's automated, it still should be documented.</p>
-        <br />
-        <p>At this time I'm currently overhauling Pagely's Documentation process, along with creating new documentation to better serve our customers, but in my spare time I'm working on building fullstack applications, utilizing Node.js, Headless WordPress, and React.</p>
-        <br />
-        <p>I've also been known to create Videos from time to time - some of them are related to documentation, others are on random topics.</p>
+        <p class="expertise-font">I'm an Web Developer with an insatiable thirst to learn. I not only love to build, but to Document the process.</p>
+        <p class="expertise-font">Repeating a task from Scratch is not smart. If it's not automated, it better be documented. If it's automated, it still should be documented.</p>
+        <p class="expertise-font">At this time I'm currently overhauling Pagely's Documentation process, along with creating new documentation to better serve our customers, but in my spare time I'm working on building fullstack applications, utilizing Node.js, Headless WordPress, and React.</p>
+        <p class="expertise-font">I've also been known to create Videos from time to time - some of them are related to documentation, others are on random topics.</p>
       </div>
-      <div class="position-proper section" id="expertise">
-        <br/>
+      <div class="add-pad" id="expertise">
         <h2>Expertise</h2>
-        <br/>
         <div class="expertise-col">
+          <br/>
           <h3>React</h3>
-          <p class="expertise-font">My Experience with React</p>
+          <p class="expertise-font">Worked with React/Redux and other related libraries to product modern front end Application</p>
         </div>
         <div class="expertise-col">
           <h3>JQuery</h3>
-          <p class="expertise-font">My Experience with JQuery</p>
+          <p class="expertise-font">Exposed to JQuery for years through various WordPress themes and plugins has taught me when and where it is appropriate to use it. These days I utilize it for prototyping in personal projects, or when supporting legacy Application</p>
         </div>
         <div class="expertise-col">
           <h3>Node.js</h3>
-          <p class="expertise-font">My Experience with Node.js</p>
+          <p class="expertise-font">Built various applications using the backend language en tandem with express. Due to impressive performance and language uniformity, it is my preferred go to language for back end applications</p>
         </div>
         <div class="expertise-col">
           <h3>WordPress</h3>
-          <p class="expertise-font">My Experience with WordPress</p>
+          <p class="expertise-font">With +4 years of experienec supporting WordPress applications it is easily the application I have been exposed the most to. Due to this, my expertise in PHP, JavaScript, and the JQuery library has its roots around the optimizing of this particular CMS</p>
         </div>
         <div class="expertise-col">
           <h3>PHP</h3>
-          <p class="expertise-font">My Experience with PHP</p>
+          <p class="expertise-font">Due to exposure to Joomla, WordPress over the years my exposure to PHP through its variations and scalability tools (HHVM, version improvements in PHP7) are vast, but mostly in an Adminsitrative role.</p>
         </div>
         <div class="expertise-col">
           <h3>HTML/CSS/JavaScript</h3>
-          <p class="expertise-font">My Experience with JavaScript, pre and post ES8 syntax changes</p>
+          <p class="expertise-font">My Experience with HTML, CSS, and JavaScript goes back six years, with familiarity in pre and post ES6 syntax, and their relationship to one another.</p>
         </div>
       </div>
-      <div class="position-proper section" id="skills">
-        <br/>
+      <div class="add-pad" id="skills">
         <h2>Skills & Tool Proficency</h2>
-        <br/>
-        <h3><span class="color-me-gold">90%</span> Atom IDE</h3>
-        <div class="progress-bar">
-          <span style="width:90%">
-          </span>
+        <div class="skills-row">
+          <h3><span class="color-me-gold">90%</span> Atom IDE</h3>
+          <div class="progress-bar">
+            <span style="width:90%">
+            </span>
+          </div>
         </div>
-        <br/>
-        <h3><span class="color-me-gold">90%</span> AWS Console</h3>
-        <div class="progress-bar">
-          <span style="width:90%">
-          </span>
+        <div class="skills-row">
+          <h3><span class="color-me-gold">90%</span> AWS Console</h3>
+          <div class="progress-bar">
+            <span style="width:90%">
+            </span>
+          </div>
         </div>
-        <br/>
-        <h3><span class="color-me-gold">90%</span> Git</h3>
-        <div class="progress-bar">
-          <span style="width:90%">
-          </span>
+        <div class="skills-row">
+          <h3><span class="color-me-gold">90%</span> Git</h3>
+          <div class="progress-bar">
+            <span style="width:90%">
+            </span>
+          </div>
         </div>
-        <br/>
-        <h3><span class="color-me-gold">80%</span> Camtasia</h3>
-        <div class="progress-bar">
-          <span style="width:90%">
-          </span>
+        <div class="skills-row">
+          <h3><span class="color-me-gold">80%</span> Camtasia</h3>
+          <div class="progress-bar">
+            <span style="width:90%">
+            </span>
+          </div>
         </div>
-        <br/>
-        <h3><span class="color-me-gold">70%</span> Ansible</h3>
-        <div class="progress-bar">
-          <span style="width:70%">
-          </span>
+        <div class="skills-row">
+          <h3><span class="color-me-gold">70%</span> Ansible</h3>
+          <div class="progress-bar">
+            <span style="width:70%">
+            </span>
+          </div>
         </div>
-        <br/>
-        <h3><span class="color-me-gold">70%</span> Docker</h3>
-        <div class="progress-bar">
-          <span style="width:70%">
-          </span>
+        <div class="skills-row">
+          <h3><span class="color-me-gold">70%</span> Docker</h3>
+          <div class="progress-bar">
+            <span style="width:70%">
+            </span>
+          </div>
         </div>
-        <br/>
-        <h3><span class="color-me-gold">60%</span> Photohop</h3>
-        <div class="progress-bar">
-          <span style="width:60%">
-          </span>
+        <div class="skills-row">
+          <h3><span class="color-me-gold">60%</span> Photoshop</h3>
+          <div class="progress-bar">
+            <span style="width:60%">
+            </span>
+          </div>
         </div>
       </div>
       <!-- New Portfolio Entry -->
-      <div class="position-proper section" id="portfolio">
-        <br/>
+      <div class="add-pad" id="portfolio">
         <h2>Portfolio</h2>
-        <br/>
-        <a href="#" target="_blank">
+        <a href="https://hckia.github.io/MidEasyQuizApp" target="_blank">
         <div class="portfolio-row">
           <h3>Mid Easy Quiz App</h3>
-          <div class="portfolio-col">
-            <!-- <p class="expertise-font">My Experience with React</p> -->
             <img class="portfolio-gif" src="./imgs/mid-easy-quiz-app.gif" />
-          </div>
           <div class="portfolio-col">
-            <p class="expertise-font">Explanation of the MidEasy Quiz App</p>
+            <p class="expertise-font">The Mid Easy Quiz App was an application prototype build with HTML, CSS, JQuery and some good old fashioned JSON. <br/><br/> The premise was to showcase how little people knew about a region they tend to have quite a strong opinion about. The Quiz heavily skews towards facts us in the west may find surprisingly familiar. Kind of the point</br><br/> This project will eventually be rebuilt to be more dynamic and utilize Node.js and MongoDB. React may be utilized if enough time can be poured into it.<br/><br/></p>
           </div>
         </div>
         </a>
-        <a href="#" target="_blank">
+        <a href="https://hckia.github.io/FomoCalculator/" target="_blank">
         <div class="portfolio-row">
           <h3>FOMO Calculator</h3>
-          <div class="portfolio-col">
             <img class="portfolio-gif" src="./imgs/fomo-calculator.gif" />
-          </div>
           <div class="portfolio-col">
-            <p class="expertise-font">Explanation of the FOMO Calculator</p>
+            <p class="expertise-font">The FOMO Calculator was built during the hype of the Cryptocurrency craze in late 2017, early 2018. Its purpose was to showcase the highs and lows of investing in BitCoin throughout its lifespan.</br><br/>Although the name "FOMO" was chosen due to the culture surrounding cryptocurrency investors, the real purpose of the app was to show people they should err on the side of caution when investing in Bitcoin</br><br/>The Interface was also built to try and be as dynamic as possible - allowing the user to click or type away.</br><br/>This app currenly uses the Coindesk API. While no backend will be built in the future, upgrades to the USEr Interface may take place.</p>
           </div>
         </div>
         </a>
-        <a href="#" target="_blank">
+        <a href="https://web-site-review.herokuapp.com/" target="_blank">
         <div class="portfolio-row">
           <h3>Web Site Reviews</h3>
-          <div class="portfolio-col">
             <img class="portfolio-gif" src="./imgs/web-site-review.gif" />
-          </div>
           <div class="portfolio-col">
-            <p class="expertise-font">Explanation of Web Site Reviews</p>
+            <p class="expertise-font">The Web Site Reviews App was my first attempt at a Social Networking app. It utilizes Node.js, MongoDB, and a basic HTML/CSS/JS with JQuery library on the front end.<br/><br/>A user can see reviews on sites without logging in, but to like, dislike, or create a review the user must be signed in to do so. Basic regex is used to filter out some urls bad urls, but eventually more complex methods will be utilized to make the site more functional (such as DNS queries, whosis look ups).<br/></br></p>
           </div>
         </div>
         </a>
-        <a href="#" target="_blank">
+        <a href="http://www.mymaptales.com/" target="_blank">
         <div class="portfolio-row">
           <h3>My Map Tales</h3>
-          <div class="portfolio-col">
             <img class="portfolio-gif" src="./imgs/my-map-tales.gif" />
-          </div>
           <div class="portfolio-col">
-            <p class="expertise-font">Explanation of My Map Tales</p>
+            <p class="expertise-font">My Map Tales was my second attempt at a social networking site, and my first attempt at using React/Redux on the front end application. The backend still utilized Node.js and MongoDB, and JWT authentication as well</br></br>The inspiration behind the application came with the news of Anthony Bourdain's death. With family all of the world, traveling was often seen as a chore in my younger years, and not as a privilege. This man changed my perspective on that, and I wanted a way for other people to share their stories with me.</br></br></p>
           </div>
         </div>
         </a>
-        <a href="#" target="_blank">
+        <a href="http://www.lamiradawheels.com/" target="_blank">
         <div class="portfolio-row">
           <h3>La Mirada Wheels</h3>
-          <div class="portfolio-col">
             <img class="portfolio-gif" src="./imgs/la-mirada-wheels.gif" />
-          </div>
           <div class="portfolio-col">
-            <p class="expertise-font">Explanation of La Mirada Wheels</p>
+            <p class="expertise-font">La Mirada Wheels is a simple WordPress site, with a few twists. A family member needed a site for SEO purposes that they could easily update. This required me to look at a few drag and drop builder options, but within the scope of WordPress. I decided to use Elementor, but took the opportunity to mess around with Beaver Builder and Divi as well.</br></br>The end result was La Mirada wheels, a Elementor built, SEO leaning single page site That will allow for custom code modifications in the event the client decides to go in a different route.</br></br></p>
           </div>
         </div>
         </a>
       </div>
-      <div class="position-proper section" id="experience">
-        <br/>
+      <div class="add-pad" id="experience">
         <h2>Experience</h2>
-        <br/>
         <div class="experience-row">
+          <img class="img-edu" src="./imgs/pagely-icon.png" />
           <h3>Pagely<h3>
           <h4>Customer Success Engineer & Technical Solutions Engineer</h4>
           <h4><span class="date">2/2016-PRESENT</span></h4>
           <br />
-          <p class="expertise-font">Pagely Experience</p>
+          <p class="expertise-font">As Customer Success Engineer Oversaw ticket, application, and server triaging on behalf of Pagely's customers. These events included, but were not limited to NGINX Reverse Proxies, SSL installations, Application Migrations, Server and Security performance audits, Server resizes, and more.</p>
+          <p class="expertise-font">Due the number of manual processes documentation became extremely Important. As a Technical Solutions Engineer I oversaw prior responsibilites as a Customer Success Engineer, along with the overhaul of Pagely's documentation process, ensuring not only that existing knowledge was saved, but easily to find. Due to the large number of customers with custom configurations, ensuring their specific needs were configured and documented required a process all on its own.</p>
         </div>
         <div class="experience-row">
-          <h3>Tech Tribe Gurus</h3>
+          <img class="img-edu" src="./imgs/tech-tribe-gurus-icon.png" />
+          <h3>Tech Tribe Gurus, LLC.</h3>
           <h4>Founder</h4>
           <h4><span class="date">1/2017-PRESENT</span></h4>
           <br />
-          <p class="expertise-font">Tech Tribe Gurus Experience</p>
+          <p class="expertise-font">Tech Tribe Gurus, LLC. was formed to learn how to create, conduct, and run an IT consulting Business, while simultaneously honing skills. Through the LLC Coding workshops, various tutorials, and consulting projects have been conducted.</p>
         </div>
         <div class="experience-row">
+          <img class="img-edu" src="./imgs/thinkful-icon.png" />
           <h3>Developer Evangelist</h3>
           <h4>Thinkful</h4>
           <h4><span class="date">3/2018-PRESENT</span></h4>
           <br />
-          <p class="expertise-font">Thinkful Experience</p>
+          <p class="expertise-font">Responsible for leading coding workshops and presenting various resources to hone skills as a Developer. These include, but are not limited to FreeCode Camp, Udemy, and Thinkfuls Engineering Immersion & Flex Developer programs.</p>
         </div>
         <div class="experience-row">
+          <img class="img-edu" src="./imgs/DreamHost-icon.png" />
           <h3>DreamHost</h3>
           <h4>Technical Support</h4>
           <h4><span class="date">9/2014-2/2016</span></h4>
           <br />
-          <p class="expertise-font">DreamHost Experience</p>
+          <p class="expertise-font">Responsible for ticket triaging and System administration tasks, eventually working on several specialized teams including...</p>
+          <p class="expertise-font">DreamHost's Cloud Support team: Responsible for building tutoriald and assisting customers on how to utilize the OpenStack platform.</p>
+          <p class="expertise-font">DreamHost's DreamPress Support team: Responsible for assisting customers in utilizing our DreamPress services, which offered scalable WordPress solutions</p>
+          <p class="expertise-font">DreamHost's abuse team: Responsible for working with customers who were in danger of, or breaching our Terms of Service (TOS).</p>
         </div>
         <div class="experience-row">
+          <img class="img-edu" src="./imgs/cww-icon.png" />
           <h3>CyberWatch West</h3>
           <h4>Web Manager</h4>
           <h4><span class="date">3/2013-8/2013</span></h4>
           <br />
-          <p class="expertise-font">CyberWatch West Experience</p>
+          <p class="expertise-font">This was an intern position which introduced me to Web Administration tasks at Cyber Watch West - a college grant spanning several Colleges/Universities, with the focus of promoting Cyber Security. Responsibilities included updating plugins, posts, and communicating between all organizations involved with the grant through the Joomla run site.</p>
         </div>
       </div>
-      <div class="position-proper section" id="education-certification">
-        <br/>
+      <div class="add-pad" id="education-certification">
         <h2>Education & Certifications</h2>
-        <br/>
-        <div class="education-row">
+        <div class="education-row add-pad">
           <h3>Thinkful Dev Bootcamp Graduate</h3>
           <h4>2017-2018</h4>
           <img class="img-edu" src="./imgs/thinkful-icon.png" />
-          <p class="expertise-font">Thinkful Bootcamp info here</p>
+          <p class="expertise-font">Graduated from Thinkful's Flex Dev bootcamp - an intense six month program that required learning Node.js, MongoDB, JQuery, React, and various other libraries/frameworks in order to build Full Stack Web Applications</p>
         </div>
         <div class="education-row">
           <h3>AWS Solutions Architect - Associate Level</h3>
           <h4>Certified January 1st, 2017</h4>
           <img class="img-edu" src="./imgs/aws-certified.png" />
-          <p class="expertise-font">AWS certified info here</p>
+          <p class="expertise-font">With the assistance of acloud.guru and my role at Pagely I was able to pass the Amazon Web Services Solutions Architect - Associate level exam. This certifies me to work with AWS architecture, and shows some high-mid level understanding of AWS's services and infrastructure.</p>
         </div>
         <div class="education-row">
           <h3>UCLA Bachelor's Degree: Sociology (Computer Programming Specialization)</h3>
           <h4>2012</h4>
           <img class="img-edu" src="./imgs/ucla-icon.png" />
-          <p class="expertise-font">UCLA info here</p>
+          <p class="expertise-font">Transferred to UCLA with intent to study linguistic and geopolitical factors that drive the Middle East with data driven conclusions, but quickly switched to an interest in social engineering, development and transportation Equity</p>
+          <p class="expertise-font">I joined a NYU travel study program that researched the development of Manhattan, and how transportation inequity has taken root in spite of best intentions. Studies were also done on how social order in a highly dense region through basic social engineering mechanisms. Tools at hand that were utilized involved ArcGIS, MS SQL, and data piped from various Government and Private agencies.</p>
         </div>
         <div class="education-row">
           <h3>Mt. San Antonio College: A.S. Computer Programming</h3>
           <h4>2011</h4>
           <img class="img-edu" src="./imgs/mt-sac-icon.png" />
-          <p class="expertise-font">Mt. SAC info here</p>
+          <p class="expertise-font">Introduced to fundamental Computer Science and Information System concepts, while completing my General education for University transfer. Programming languages focused around variations of SQL, Java, C++ and the .NET framework.</p>
         </div>
       </div>
     </div>
-    <div id="right-column">
-    <div id="toggler"><button ><img id="js-toggle" src="./imgs/hamburger-menu.png" /></button></div>
-      <div class="img-container" ><img id="profile-img" src="./imgs/Cyrus default.png" alt="image of cyrus" /></div>
-      <nav>
-        <ul>
-          <li><a href="#info" class="js-link-clicked">My Contact Information</a></li>
-          <li><a href="#about" class="js-link-clicked">About Me</a></li>
-          <li><a href="#expertise" class="js-link-clicked">My Expertise</a></li>
-          <li><a href="#skills" class="js-link-clicked">My Skills & Tool Proficency</a></li>
-          <li><a href="#portfolio" class="js-link-clicked">My Portfolio</a></li>
-          <li><a href="#experience" class="js-link-clicked">My Experience</a></li>
-          <li><a href="#education-certification" class="js-link-clicked">My Education & Certifications</a></li>
-      </ul>
-      </nav>
-    </div>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
     <script src="./script.js" defer></script>
   </body>
 </html>

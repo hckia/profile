@@ -153,6 +153,11 @@ h4 {
   display: block;
 }
 
+.experience-row > img {
+  margin: 5px;
+  float: left;
+}
+
 .experience-row > h3 {
   opacity: .6;
 }
@@ -370,6 +375,12 @@ p {
     display: block;
   }
 
+  .experience-row > img {
+    margin: 10px;
+    width: 20%;
+    float: inherit;
+  }
+
   .expertise-col {
     width: 100%
   }
@@ -449,10 +460,18 @@ p {
     display: block;
   }
 
+  .experience-row > img {
+    margin: 10px;
+    width: 25%;
+    float: inherit;
+  }
+
   .img-edu {
+    margin: 10px;
     width: 25%;
     border: 1px solid black;
   }
+
   .add-pad {
     padding: 5px;
   }

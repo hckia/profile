@@ -8,10 +8,8 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <!-- <div class="navbar"> -->
-      <div class="dropdown" href="#">
+      <aside class="dropdown" href="#">
         <button onclick="myFunction()" class="dropbtn">
-          <!-- <i class="fa fa-caret-down"></i> -->
         </button>
         <nav id="myDropdown" class="dropdown-content">
           <a href="#info" class="js-link-clicked">My Contact Information</a>
@@ -22,9 +20,8 @@
           <a href="#experience" class="js-link-clicked">My Experience</a>
           <a href="#education-certification" class="js-link-clicked">Education & Certifications</a>
         </nav>
-      </div>
-    <!-- </div> -->
-    <div id="left-column">
+      </aside>
+    <main id="left-column">
       <header class="add-pad" id="my-profile-header">
         <h1>
           <span id="firstname">Hoormazd</span>
@@ -34,7 +31,7 @@
         <p class="description">Web Developer, Scriber, and an Security Minded Tech Enthusiast</p>
       </header>
       <div class="border"></div>
-      <div class="add-pad" id="info">
+      <section class="add-pad" id="info">
           <h2>Contact Information</h2>
         <div class="info-row">
           <div class="info-col">
@@ -58,15 +55,15 @@
             </a>
           </div>
         </div>
-      </div>
-      <div class="add-pad" id="about">
+      </section>
+      <section class="add-pad" id="about">
         <h2>About Me</h2>
         <p class="expertise-font">I'm an Web Developer with an insatiable thirst to learn. I not only love to build, but to Document the process.</p>
         <p class="expertise-font">Repeating a task from Scratch is not smart. If it's not automated, it better be documented. If it's automated, it still should be documented.</p>
         <p class="expertise-font">At this time I'm currently overhauling Pagely's Documentation process, along with creating new documentation to better serve our customers, but in my spare time I'm working on building fullstack applications, utilizing Node.js, Headless WordPress, and React.</p>
         <p class="expertise-font">I've also been known to create Videos from time to time - some of them are related to documentation, others are on random topics.</p>
-      </div>
-      <div class="add-pad" id="expertise">
+      </section>
+      <section class="add-pad" id="expertise">
         <h2>Expertise</h2>
         <div class="expertise-col">
           <br/>
@@ -93,8 +90,8 @@
           <h3>HTML/CSS/JavaScript</h3>
           <p class="expertise-font">My Experience with HTML, CSS, and JavaScript goes back six years, with familiarity in pre and post ES6 syntax, and their relationship to one another.</p>
         </div>
-      </div>
-      <div class="add-pad" id="skills">
+      </section>
+      <section class="add-pad" id="skills">
         <h2>Skills & Tool Proficency</h2>
         <div class="skills-row">
           <h3><span class="color-me-gold">90%</span> Atom IDE</h3>
@@ -145,9 +142,9 @@
             </span>
           </div>
         </div>
-      </div>
+      </section>
       <!-- New Portfolio Entry -->
-      <div class="add-pad" id="portfolio">
+      <section class="add-pad" id="portfolio">
         <h2>Portfolio</h2>
         <a href="https://hckia.github.io/MidEasyQuizApp" target="_blank">
         <div class="portfolio-row">
@@ -194,14 +191,14 @@
           </div>
         </div>
         </a>
-      </div>
-      <div class="add-pad" id="experience">
+      </section>
+      <section class="add-pad" id="experience">
         <h2>Experience</h2>
         <div class="experience-row">
           <img class="img-edu" src="./imgs/pagely-icon.png" />
           <h3>Pagely<h3>
           <h4>Customer Success Engineer & Technical Solutions Engineer</h4>
-          <h4><span class="date">2/2016-PRESENT</span></h4>
+          <h4><time datetime="2016-02-02" class="date">2/2016-PRESENT</time></h4>
           <br />
           <p class="expertise-font">As Customer Success Engineer Oversaw ticket, application, and server triaging on behalf of Pagely's customers. These events included, but were not limited to NGINX Reverse Proxies, SSL installations, Application Migrations, Server and Security performance audits, Server resizes, and more.</p>
           <p class="expertise-font">Due the number of manual processes documentation became extremely Important. As a Technical Solutions Engineer I oversaw prior responsibilites as a Customer Success Engineer, along with the overhaul of Pagely's documentation process, ensuring not only that existing knowledge was saved, but easily to find. Due to the large number of customers with custom configurations, ensuring their specific needs were configured and documented required a process all on its own.</p>
@@ -210,7 +207,7 @@
           <img class="img-edu" src="./imgs/tech-tribe-gurus-icon.png" />
           <h3>Tech Tribe Gurus, LLC.</h3>
           <h4>Founder</h4>
-          <h4><span class="date">1/2017-PRESENT</span></h4>
+          <h4><time datetime="2017-01-01" class="date">1/2017-PRESENT</time></h4>
           <br />
           <p class="expertise-font">Tech Tribe Gurus, LLC. was formed to learn how to create, conduct, and run an IT consulting Business, while simultaneously honing skills. Through the LLC Coding workshops, various tutorials, and consulting projects have been conducted.</p>
         </div>
@@ -218,7 +215,7 @@
           <img class="img-edu" src="./imgs/thinkful-icon.png" />
           <h3>Developer Evangelist</h3>
           <h4>Thinkful</h4>
-          <h4><span class="date">3/2018-PRESENT</span></h4>
+          <h4><time datetime="2018-03-03" class="date">3/2018-PRESENT</time></h4>
           <br />
           <p class="expertise-font">Responsible for leading coding workshops and presenting various resources to hone skills as a Developer. These include, but are not limited to FreeCode Camp, Udemy, and Thinkfuls Engineering Immersion & Flex Developer programs.</p>
         </div>
@@ -226,7 +223,7 @@
           <img class="img-edu" src="./imgs/DreamHost-icon.png" />
           <h3>DreamHost</h3>
           <h4>Technical Support</h4>
-          <h4><span class="date">9/2014-2/2016</span></h4>
+          <h4><time datetime="2014-09-09" class="date">9/2014-2/2016</time></h4>
           <br />
           <p class="expertise-font">Responsible for ticket triaging and System administration tasks, eventually working on several specialized teams including...</p>
           <p class="expertise-font">DreamHost's Cloud Support team: Responsible for building tutoriald and assisting customers on how to utilize the OpenStack platform.</p>
@@ -237,40 +234,40 @@
           <img class="img-edu" src="./imgs/cww-icon.png" />
           <h3>CyberWatch West</h3>
           <h4>Web Manager</h4>
-          <h4><span class="date">3/2013-8/2013</span></h4>
+          <h4><time datetime="2013-03-03" class="date">3/2013-8/2013</time></h4>
           <br />
           <p class="expertise-font">This was an intern position which introduced me to Web Administration tasks at Cyber Watch West - a college grant spanning several Colleges/Universities, with the focus of promoting Cyber Security. Responsibilities included updating plugins, posts, and communicating between all organizations involved with the grant through the Joomla run site.</p>
         </div>
-      </div>
-      <div class="add-pad" id="education-certification">
+      </section>
+      <section class="add-pad" id="education-certification">
         <h2>Education & Certifications</h2>
         <div class="education-row add-pad">
           <h3>Thinkful Dev Bootcamp Graduate</h3>
-          <h4>2017-2018</h4>
+          <h4><time datetime="2017-2018">2017-2018</time></h4>
           <img class="img-edu" src="./imgs/thinkful-icon.png" />
           <p class="expertise-font">Graduated from Thinkful's Flex Dev bootcamp - an intense six month program that required learning Node.js, MongoDB, JQuery, React, and various other libraries/frameworks in order to build Full Stack Web Applications</p>
         </div>
         <div class="education-row">
           <h3>AWS Solutions Architect - Associate Level</h3>
-          <h4>Certified January 1st, 2017</h4>
+          <h4><time datetime="2017-01-01">Certified January 1st, 2017</time></h4>
           <img class="img-edu" src="./imgs/aws-certified.png" />
           <p class="expertise-font">With the assistance of acloud.guru and my role at Pagely I was able to pass the Amazon Web Services Solutions Architect - Associate level exam. This certifies me to work with AWS architecture, and shows some high-mid level understanding of AWS's services and infrastructure.</p>
         </div>
         <div class="education-row">
           <h3>UCLA Bachelor's Degree: Sociology (Computer Programming Specialization)</h3>
-          <h4>2012</h4>
+          <h4><time datetime="2012">2012</time></h4>
           <img class="img-edu" src="./imgs/ucla-icon.png" />
           <p class="expertise-font">Transferred to UCLA with intent to study linguistic and geopolitical factors that drive the Middle East with data driven conclusions, but quickly switched to an interest in social engineering, development and transportation Equity</p>
           <p class="expertise-font">I joined a NYU travel study program that researched the development of Manhattan, and how transportation inequity has taken root in spite of best intentions. Studies were also done on how social order in a highly dense region through basic social engineering mechanisms. Tools at hand that were utilized involved ArcGIS, MS SQL, and data piped from various Government and Private agencies.</p>
         </div>
         <div class="education-row">
           <h3>Mt. San Antonio College: A.S. Computer Programming</h3>
-          <h4>2011</h4>
+          <h4><time datetime="2011">2011</time></h4>
           <img class="img-edu" src="./imgs/mt-sac-icon.png" />
           <p class="expertise-font">Introduced to fundamental Computer Science and Information System concepts, while completing my General education for University transfer. Programming languages focused around variations of SQL, Java, C++ and the .NET framework.</p>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
     <script src="./script.js" defer></script>
   </body>
 </html>

@@ -11,6 +11,35 @@ body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
+ul, li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+  display: block;
+  border: 3px solid #F8BB10;
+  color: #F8BB10;
+  overflow: hidden;
+}
+
+.btn:active {
+  border-color: #17954c;
+  color: #17954c;
+}
+
+.btn:hover {
+  color: white;
+  font-weight: bold;
+  background: #ddd;
+}
+
+
 a {
   color: inherit;
 }
@@ -158,6 +187,10 @@ div {
   display: inline-block;
 }
 
+section {
+  display: inline-block;
+}
+
 .portfolio-gif {
   width: 90%;
 }
@@ -184,6 +217,13 @@ div {
 
 #skills {
   background: #fcfbfc;
+}
+
+#skills-header {
+  width: 100%;
+  text-align: center;
+  float: left;
+  display: block;
 }
 
 #experience {

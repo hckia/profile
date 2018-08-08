@@ -28,6 +28,10 @@ ul, li {
   overflow: hidden;
 }
 
+.portfolio-btn {
+  /* float: right; */
+}
+
 .btn:active {
   border-color: #17954c;
   color: #17954c;
@@ -145,6 +149,7 @@ h4 {
 }
 
 .portfolio-row {
+  display: inline-flex;
   margin: 5px;
   width: 45%;
   box-shadow: 1px 1px 1px 1px black;
